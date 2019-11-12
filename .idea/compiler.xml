@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sportsbetting-application-service" />
+        <module name="sportsbetting-application-maven" />
+        <module name="sportsbetting-application-app" />
+        <module name="sporstbetting-application-domain" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="10">
+      <module name="sporstbetting-application-domain" target="10" />
+      <module name="sportsbetting-application-app" target="10" />
+      <module name="sportsbetting-application-maven" target="10" />
+      <module name="sportsbetting-application-service" target="10" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
