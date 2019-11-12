@@ -13,5 +13,11 @@
     <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
     </properties>
 
+    <modules>
+        <module>../sportsbetting-application-app</module>
+        <module>../sporstbetting-application-domain</module>
+        <module>../sportsbetting-application-service</module>
+    </modules>
+
 
 </project>
